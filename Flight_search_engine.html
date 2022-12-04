@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Flight Search Engine</title>
+<style>
+	#mainBorder{
+	border-style : groove;
+	padding-left:10px;
+	}
+	#borderLeft{
+	border-style : groove;
+	padding-left:10px;
+	width:30%;
+	float: left;
+	
+	}
+	#borderRight{
+	border-style : groove;
+	padding-left:10px;
+	width : 67%;
+	float: right;
+	}
+	#borderTop, #borderBottom{
+	border-style : groove;
+	
+	}
+</style>
+
+</head>
+<body>
+
+<div id = "mainBorder">
+
+<h1> Flight Search Engine
+
+</h1>
+
+</div>
+
+
+<div id = "borderLeft">
+
+<p>
+
+search bar
+
+<div id ="borderTop">
+ <input type="text" id="Origin" name="Origin" placeholder= "Enter City Origin"> <br/> <br/>
+ <input type="text" id="Destination" name="Destination" placeholder= "Enter Destination City"> <br/> <br/>
+ <label for="Departure Dtae">Departure:</label>
+ <input type="date" id="DepartureDate" name="Departure Date"> <br /> <br />
+ <label for="Return Date">Return:</label>
+ <input type="date" id="ReturnDate" name="Return Date"> <br /> <br / >
+ <label for="Passengers">Passengers:</label>
+
+<select name="Passengers" id="Passengers">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+
+</div>
+
+<div class="priceSlider">
+<p> Refine Flight Search <p />
+  <input type="range" min="1" max="100000" value="50" class="priceSlider" id="myRange">
+</div>
+
+ 
+</div>
+
+</p>
+
+</div>
+
+<div id ="borderRight">
+
+<p>
+
+outhput bar
+
+</p>
+
+</div>
+
+</body>
+
+</html> 
